@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42753912BBA77201F4E74CF0 /* Pods_POSProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2AC5762039D95120C52B9 /* Pods_POSProjectTests.framework */; };
 		C79E87C11FC7AE58003B7E5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E87C01FC7AE58003B7E5C /* AppDelegate.swift */; };
 		C79E87C31FC7AE58003B7E5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E87C21FC7AE58003B7E5C /* ViewController.swift */; };
 		C79E87C61FC7AE58003B7E5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79E87C41FC7AE58003B7E5C /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		C79E87CB1FC7AE58003B7E5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79E87C91FC7AE58003B7E5C /* LaunchScreen.storyboard */; };
 		C79E87D61FC7AE58003B7E5C /* POSProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E87D51FC7AE58003B7E5C /* POSProjectTests.swift */; };
 		C79E87E11FC7AE58003B7E5C /* POSProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E87E01FC7AE58003B7E5C /* POSProjectUITests.swift */; };
+		C79E87EF1FC7B0B9003B7E5C /* GoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E87EE1FC7B0B9003B7E5C /* GoodModel.swift */; };
+		C79E87F11FC7B531003B7E5C /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E87F01FC7B531003B7E5C /* CartViewModel.swift */; };
+		C79E87F31FC7B773003B7E5C /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E87F21FC7B773003B7E5C /* CartManager.swift */; };
+		C79E87F51FC7B929003B7E5C /* goods.plist in Resources */ = {isa = PBXBuildFile; fileRef = C79E87F41FC7B929003B7E5C /* goods.plist */; };
+		C79E87F71FC7F1C0003B7E5C /* CartSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79E87F61FC7F1C0003B7E5C /* CartSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		016927C21FA223066838C4DE /* Pods-POSProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POSProjectTests/Pods-POSProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		18C2AC5762039D95120C52B9 /* Pods_POSProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POSProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7F7B9F7487DC04E7E48854 /* Pods-POSProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-POSProjectTests/Pods-POSProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		C79E87BD1FC7AE58003B7E5C /* POSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79E87C01FC7AE58003B7E5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C79E87C21FC7AE58003B7E5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		C79E87DC1FC7AE58003B7E5C /* POSProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POSProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79E87E01FC7AE58003B7E5C /* POSProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSProjectUITests.swift; sourceTree = "<group>"; };
 		C79E87E21FC7AE58003B7E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79E87EE1FC7B0B9003B7E5C /* GoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodModel.swift; sourceTree = "<group>"; };
+		C79E87F01FC7B531003B7E5C /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		C79E87F21FC7B773003B7E5C /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		C79E87F41FC7B929003B7E5C /* goods.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = goods.plist; sourceTree = "<group>"; };
+		C79E87F61FC7F1C0003B7E5C /* CartSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42753912BBA77201F4E74CF0 /* Pods_POSProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DE72BF7A35BF923AD5D4456 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C2AC5762039D95120C52B9 /* Pods_POSProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C4DE1FA083D7853425E48C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				016927C21FA223066838C4DE /* Pods-POSProjectTests.debug.xcconfig */,
+				3C7F7B9F7487DC04E7E48854 /* Pods-POSProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C79E87B41FC7AE58003B7E5C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				C79E87D41FC7AE58003B7E5C /* POSProjectTests */,
 				C79E87DF1FC7AE58003B7E5C /* POSProjectUITests */,
 				C79E87BE1FC7AE58003B7E5C /* Products */,
+				6C4DE1FA083D7853425E48C7 /* Pods */,
+				5DE72BF7A35BF923AD5D4456 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +133,14 @@
 			children = (
 				C79E87C01FC7AE58003B7E5C /* AppDelegate.swift */,
 				C79E87C21FC7AE58003B7E5C /* ViewController.swift */,
+				C79E87EE1FC7B0B9003B7E5C /* GoodModel.swift */,
+				C79E87F01FC7B531003B7E5C /* CartViewModel.swift */,
+				C79E87F21FC7B773003B7E5C /* CartManager.swift */,
 				C79E87C41FC7AE58003B7E5C /* Main.storyboard */,
 				C79E87C71FC7AE58003B7E5C /* Assets.xcassets */,
 				C79E87C91FC7AE58003B7E5C /* LaunchScreen.storyboard */,
 				C79E87CC1FC7AE58003B7E5C /* Info.plist */,
+				C79E87F41FC7B929003B7E5C /* goods.plist */,
 			);
 			path = POSProject;
 			sourceTree = "<group>";
@@ -111,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				C79E87D51FC7AE58003B7E5C /* POSProjectTests.swift */,
+				C79E87F61FC7F1C0003B7E5C /* CartSpec.swift */,
 				C79E87D71FC7AE58003B7E5C /* Info.plist */,
 			);
 			path = POSProjectTests;
@@ -149,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C79E87E81FC7AE58003B7E5C /* Build configuration list for PBXNativeTarget "POSProjectTests" */;
 			buildPhases = (
+				2E0E7DEDA662173938E76D36 /* [CP] Check Pods Manifest.lock */,
 				C79E87CD1FC7AE58003B7E5C /* Sources */,
 				C79E87CE1FC7AE58003B7E5C /* Frameworks */,
 				C79E87CF1FC7AE58003B7E5C /* Resources */,
+				C6E410147B22D14ECFBFBD5C /* [CP] Embed Pods Frameworks */,
+				471A01F3B177DE70223C35D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C79E87CB1FC7AE58003B7E5C /* LaunchScreen.storyboard in Resources */,
+				C79E87F51FC7B929003B7E5C /* goods.plist in Resources */,
 				C79E87C81FC7AE58003B7E5C /* Assets.xcassets in Resources */,
 				C79E87C61FC7AE58003B7E5C /* Main.storyboard in Resources */,
 			);
@@ -254,11 +297,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E0E7DEDA662173938E76D36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POSProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		471A01F3B177DE70223C35D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POSProjectTests/Pods-POSProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E410147B22D14ECFBFBD5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-POSProjectTests/Pods-POSProjectTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POSProjectTests/Pods-POSProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C79E87B91FC7AE58003B7E5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C79E87F31FC7B773003B7E5C /* CartManager.swift in Sources */,
+				C79E87F11FC7B531003B7E5C /* CartViewModel.swift in Sources */,
+				C79E87EF1FC7B0B9003B7E5C /* GoodModel.swift in Sources */,
 				C79E87C31FC7AE58003B7E5C /* ViewController.swift in Sources */,
 				C79E87C11FC7AE58003B7E5C /* AppDelegate.swift in Sources */,
 			);
@@ -268,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C79E87F71FC7F1C0003B7E5C /* CartSpec.swift in Sources */,
 				C79E87D61FC7AE58003B7E5C /* POSProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +557,7 @@
 		};
 		C79E87E91FC7AE58003B7E5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016927C21FA223066838C4DE /* Pods-POSProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +575,7 @@
 		};
 		C79E87EA1FC7AE58003B7E5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C7F7B9F7487DC04E7E48854 /* Pods-POSProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
