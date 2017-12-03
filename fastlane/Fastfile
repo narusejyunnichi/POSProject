@@ -20,10 +20,10 @@ platform :ios do
     # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
     sh "rm -fr ../Podfile.lock"
     cocoapods
-    unlock_keychain(
-	    path:"pos",
-      password:"a123456"
-    )
+    #unlock_keychain(
+	#    path:"pos",
+      #password:"a123456"
+    #)
     # carthage
   end
 
