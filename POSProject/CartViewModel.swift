@@ -34,7 +34,7 @@ public class CartViewModel: NSObject {
         goodsBarcode = goodsInCart
     }
     
-    func printReceipt(){
+    func printReceipt() -> String{
         configCartItems()
         resultString.append(getPrintHeaderString())
         cartItems.forEach { cartItem in
@@ -44,6 +44,7 @@ public class CartViewModel: NSObject {
         resultString.append(getCostString(cost: countCost()))
         resultString.append(getSaveString(save: countSave()))
         resultString.append(getPrintFooterString())
+        return resultString
     }
     
     private func configCartItems() {

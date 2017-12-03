@@ -12,7 +12,9 @@ class POSProjectUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
-        
+        let app = XCUIApplication()
+        setupSnapshot(app)
+        app.launch()
         // Put setup code here. This method is called before the invocation of each test method in the class.
         
         // In UI tests it is usually best to stop immediately when a failure occurs.
@@ -29,6 +31,7 @@ class POSProjectUITests: XCTestCase {
     }
     
     func testExample() {
+        snapshot("01LoginScreen")
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
