@@ -6,8 +6,8 @@ app_identifier ["com.stguoke.pos","com.stguoke.pos.qa"]
 team_id "M6622K6T8K"
 team_name "Shanghai Hoheng Software Co.Ltd."
 username "stguoke@vip.qq.com" # Your Apple Developer Portal username
-keychain_name "pos"
-keychain_password "a123456"
+#keychain_name "pos"
+#keychain_password "a123456"
 shallow_clone true
 
 # For all available options run `fastlane match --help`
