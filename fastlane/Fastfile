@@ -35,6 +35,7 @@ platform :ios do
   desc "pos"
   lane :pos do
     match
+    increment_build_number_in_plist
     gym(
       configuration: "Debug",
       output_name: "POSProject"
@@ -45,6 +46,7 @@ platform :ios do
   desc "qa"
   lane :qa do
     match
+    increment_build_number_in_plist
     gym(
       configuration: "Release-QA",
       output_name: "POSProject-QA"
