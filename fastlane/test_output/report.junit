@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='POSProjectTests.xctest' tests='4' failures='0'>
+  <testsuite name='POSProjectUITests.POSProjectUITests' tests='1' failures='0'>
+    <testcase classname='POSProjectUITests.POSProjectUITests' name='testExample' time='3.792'/>
+  </testsuite>
+  <testsuite name='POSProjectTests.CartSpec' tests='1' failures='0'>
+    <testcase classname='POSProjectTests.CartSpec' name='print_result__expect_output' time='0.005'/>
+  </testsuite>
+  <testsuite name='POSProjectTests.POSProjectTests' tests='2' failures='0'>
+    <testcase classname='POSProjectTests.POSProjectTests' name='testExample' time='0.000'/>
+    <testcase classname='POSProjectTests.POSProjectTests' name='testPerformanceExample' time='0.394'/>
+  </testsuite>
+</testsuites>
