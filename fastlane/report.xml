@@ -5,12 +5,52 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.014287">
+      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.003223">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.003094">
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.002551">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: rm -fr ../Podfile.lock" time="0.005708">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: cocoapods" time="2.344862">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: unlock_keychain" time="0.081904">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: match" time="30.187554">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: increment_build_number_in_plist" time="4.911258">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="7: increment_version_number_in_plist" time="2.226002">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="8: gym" time="133.625714">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="9: fir publish &quot;../build/POSProject.ipa&quot; -T &quot;c93cadaa3ee8f931ef145e9976dec410&quot;" time="85.919502">
         
       </testcase>
     
