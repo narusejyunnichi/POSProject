@@ -38,10 +38,10 @@ platform :ios do
     increment_build_number_in_plist(
 	target: 'POSProject'
     )
-    #increment_version_number_in_plist(
-    #  version_number: '1.0',
-    #  target: 'POSProject'
-    #)
+    increment_version_number_in_plist(
+      version_number: '1.0',
+      target: 'POSProject'
+    )
     gym(
       configuration: "Debug",
       output_name: "POSProject"
