@@ -23,7 +23,7 @@ platform :ios do
     unlock_keychain(
 	path:"pos",
 	password:"a123456"
-    )
+    ) 
     # carthage
   end
 
