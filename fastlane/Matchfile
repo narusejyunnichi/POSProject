@@ -2,9 +2,9 @@ git_url "git@gitee.com:stguoke/POSProjectCredentials.git"
 
 type "development" # The default type, can be: appstore, adhoc, enterprise or development
 
-app_identifier ["com.stguoke.pos","com.stguoke.pos.qa"]
-team_id "M6622K6T8K"
-team_name "Shanghai Hoheng Software Co.Ltd."
+app_identifier ["com.thoughtworks.pos"]
+team_id "25EZUPR5QA"
+team_name "ThoughtWorks Software Technologies (Xi'an) Ltd."
 username "stguoke@vip.qq.com" # Your Apple Developer Portal username
 keychain_name "pos"
 keychain_password "a123456"
