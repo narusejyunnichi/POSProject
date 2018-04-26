@@ -542,7 +542,7 @@
 				INFOPLIST_FILE = POSProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stguoke.pos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.pos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "1e0a5018-7065-42de-9d64-65dd024e0d3d";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development com.stguoke.pos";
@@ -562,7 +562,7 @@
 				INFOPLIST_FILE = POSProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stguoke.pos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.pos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "1e0a5018-7065-42de-9d64-65dd024e0d3d";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development com.stguoke.pos";
@@ -700,7 +700,7 @@
 				INFOPLIST_FILE = POSProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stguoke.pos.qa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.pos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "e758a33a-e65b-4050-adde-b4d797ce663e";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development com.stguoke.pos.qa";
